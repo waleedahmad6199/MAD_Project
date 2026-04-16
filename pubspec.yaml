@@ -1,0 +1,54 @@
+name: flowiq
+description: Intelligent Project Flow Management System
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🔥 Firebase (modern stable stack)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.0
+  firebase_storage: ^12.3.0
+
+  # 🧠 State management
+  flutter_riverpod: ^2.5.1
+
+  # 📊 UI / Visualization
+  graphview: ^1.2.0
+  fl_chart: ^0.69.0
+
+  # 🧰 Utilities
+  uuid: ^4.4.0
+  intl: ^0.19.0
+
+  # ✨ UX effects
+  shimmer: ^3.0.0
+  animate_do: ^3.3.4
+
+  # 📷 Image handling
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/app_icon.png

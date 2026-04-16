@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "923070414802",
+    "project_id": "flowiq-edd9d",
+    "storage_bucket": "flowiq-edd9d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923070414802:android:0a957ec3c017b0cee9920b",
+        "android_client_info": {
+          "package_name": "com.example.flowiq.flowiq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyQV2tk1Y-tKaWyex5uyzJ7m-IadaXD1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923070414802:android:10c8ad6b8bd22b6ee9920b",
+        "android_client_info": {
+          "package_name": "com.example.intelligent_project_flow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyQV2tk1Y-tKaWyex5uyzJ7m-IadaXD1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
