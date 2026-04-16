@@ -16,8 +16,11 @@ class GroqAiService {
   // The key is fetched from --dart-define=GROQ_API_KEY=xxx
   // Fallback to the key found in .env if not provided at build time.
   static const _apiKey = String.fromEnvironment(
-    'GROQ_API_KEY',
+    "GROQ_API_KEY",
+    defaultValue: "",
+
   );
+  
   static const String _baseUrl =
       'https://api.groq.com/openai/v1/chat/completions';
 
